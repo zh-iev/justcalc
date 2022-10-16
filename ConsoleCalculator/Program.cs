@@ -29,8 +29,13 @@ namespace ConsoleCalculator {
                         Console.WriteLine(a + " * " + b + " = " + calc);
                         break;
                     case '/':
-                        calc = a / b;
-                        Console.WriteLine(a + " / " + b + " = " + calc);
+                        if (b == 0) {
+                            Console.WriteLine("Деление на ноль невозможно.");
+                        }
+                        else {
+                            calc = a / b;
+                            Console.WriteLine(a + " / " + b + " = " + calc);
+                        }
                         break;
                     default:
                         Console.WriteLine("Введите корректный оператор!");
