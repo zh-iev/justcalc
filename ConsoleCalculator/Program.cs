@@ -6,13 +6,13 @@ namespace ConsoleCalculator {
             double a, b, calc;
             char sign;
             try {
-                Console.WriteLine("Введите первое число:");
+                Console.WriteLine("ВВЕДИТЕ ПЕРВОЕ ЧИСЛО:");
                 a = Convert.ToDouble(Console.ReadLine());
 
-                Console.WriteLine("Введите оператор:");
+                Console.WriteLine("ВВЕДИТЕ ОПЕРАТОР:");
                 sign = Convert.ToChar(Console.ReadLine());
 
-                Console.WriteLine("Введите второе число:");
+                Console.WriteLine("ВВЕДИТЕ ВТОРОЕ ЧИСЛО:");
                 b = Convert.ToDouble(Console.ReadLine());
 
                 switch (sign) {
