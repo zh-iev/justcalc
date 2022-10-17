@@ -37,6 +37,10 @@ namespace ConsoleCalculator {
                             Console.WriteLine(a + " / " + b + " = " + calc);
                         }
                         break;
+                    case 'l':
+                        calc = Math.Log(a, b);
+                        Console.WriteLine("Логарифм с основанием {0} от числа {1} = {2}",b,a,calc);
+                        break;
                     default:
                         Console.WriteLine("Введите корректный оператор!");
                         break;
