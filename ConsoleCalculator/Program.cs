@@ -28,6 +28,10 @@ namespace ConsoleCalculator {
                         calc = a * b;
                         Console.WriteLine(a + " * " + b + " = " + calc);
                         break;
+                    case '^':
+                        calc = Math.Pow(a, b);
+                        Console.WriteLine(a + " в степени " + b + " = " + calc);
+                        break;
                     case '/':
                         if (b == 0) {
                             Console.WriteLine("Деление на ноль невозможно.");
