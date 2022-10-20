@@ -5,6 +5,8 @@ namespace ConsoleCalculator {
         static void Main(string[] args) {
             double a, b, calc;
             char sign;
+            Console.WriteLine("Привет! Это простой консольный калькулятор. /n" +
+                "Следуй указаниям, чтобы получить верный результат");
             try {
                 Console.WriteLine("Введите первое число:");
                 a = Convert.ToDouble(Console.ReadLine());
